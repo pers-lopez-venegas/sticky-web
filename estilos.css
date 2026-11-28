@@ -396,6 +396,15 @@ h1 {
   margin-bottom: 0;
 }
 
+.release-notes {
+  padding: clamp(0.85rem, 2vw, 1.2rem);
+}
+
+.release-date {
+  color: var(--muted);
+  font-size: 0.875rem;
+}
+
 .manual-copy ul,
 .manual-copy ol {
   padding-inline-start: 1.5rem;
